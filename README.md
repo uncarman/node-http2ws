@@ -1,5 +1,8 @@
 ## 转发服务中间键
-解决本地主机websocket无法远程连接，通过http协议将执行命令发送给内网websocket获取返回数据。
+解决本地主机websocket无法远程连接，通过http协议将执行命令发送给内网主机websocket获取返回数据。
+
+###修改配置
+直接修改 src/index.js 文件
 
 ###请求格式
 #### request
